@@ -7,7 +7,7 @@ public class TestaBanco {
 
         Conta contaDoMarcos = new Conta();
         contaDoMarcos.deposita(100);
-        System.out.println(contaDoMarcos.saldo);
+        System.out.println(contaDoMarcos.getSaldo());
 
         contaDoMarcos.titular = marcos;
         System.out.println(contaDoMarcos.titular.nome);
